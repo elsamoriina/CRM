@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM - Customer Management</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="nav-logo">
+                        <h1>CRM</h1>
+                        <h4>Customer Management</h4>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Analytics</a></li>
+                        <li><a href="#">Reports</a></li>
+                    </ul>
+                </div>
+                <div class="nav-search-bell-user">
+                    <input type="text" id="nav-search" placeholder="Search..." >
+                    <a href="#"><i class="fa-solid fa-bell"></i></a>
+                    <a href="#"><img src="./photos/user-image.png" alt=""></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="sidebar-section">
+            <div class="sidebar">
+                <button>Bussines Overview</button>
+                <p>MAIN MENU</p>
+                <a href="#"><i class="fa-solid fa-clipboard-list"></i> Activities</a>
+                <a href="#"><i class="fa-solid fa-cube"></i>  Products</a>
+                <a href="#"><i class="fa-solid fa-user"></i> Customers</a>     
+                <a href="#"><i class="fa-solid fa-clock"></i> Recent Project</a>
+                <a href="#"><i class="fa-solid fa-star"></i> Customer Review</a>
+                <a href="#"><i class="fa-solid fa-chart-simple"></i> Statistics</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i> Chat</a>
+                <a href="#"><i class="fa-solid fa-calendar-days"></i> To Do List</a>
+                <a href="#"><i class="fa-solid fa-sack-dollar"></i> Finances</a>
+                <br><br>
+                <p>HELP & SUPPORT</p>
+                <a href="#"><i class="fa-solid fa-circle-info"></i> Help & Center</a>
+                <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
+                <br><br>
+                <img src="./photos/woman-working-on_desk.png" alt="woman-working-on_desk">
+                <button class="sidebar-btn"> <i class="fa-solid fa-right-from-bracket" style="margin-right: 0.4rem;"> </i>LOGOUT</button>
+            </div>
+        </section>
+        <section class="welcome-section">
+            <div class="welcome-user-weather">
+                <div class="welcome-user">
+                    <div>
+                        <h1>Welcome, <span>Janet!</span>
+                        </h1>
+                        <p>Here's what's happening in <br> your account today!</p>
+                        <p>It looks like there is a beautiful <br> weather today!</p>
+                    </div>
+                    <div style="margin-right: 2.5rem;" class="left-text">
+                        <h1>To Do List</h1>
+                        <p>Today you have <br><br><span>3 meetings</span>, <span>4 tasks</span>, <br><br> and <span>3 daily goals</span>.</p>
+                    </div>
+                </div>
+                <div class="weather">
+                    <img src="./photos/weather.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="analytics-section">
+            <div class="analytics-container">
+                <div class="analytics-item">
+                    <div class="customer-analytics">
+                        <div>
+                            <i class="fa-solid fa-user-group"></i>
+                        </div>
+                        <div>
+                            <p>&#8599 15.5% <span>+10k today</span></p>
+                        </div>
+                    </div>
+                    <h1>95,7580</h1>
+                    <p>Total Customers</p>
+                </div>
+                <div class="analytics-item">
+                        <div class="customer-analytics">
+                            <div>
+                                <i class="fa-solid fa-user-check" style="color: #f11f04;"></i>
+                            </div>
+                            <div>
+                                <p>&#8601; 15.5% <span>+10k today</span></p>
+                            </div>
+                        </div>
+                        <h1>48,987</h1>
+                        <p>Active Customers</p>
+                </div>
+                <div class="analytics-item">
+                    <div class="customer-analytics">
+                        <div>
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div>
+                            <p>&#8599 15.5% <span>+10k today</span></p>
+                        </div>
+                    </div>
+                        <h1>250,158</h1>
+                        <p>Total Profit</p>
+                </div>
+                <div class="analytics-item">
+                    <div class="customer-analytics">
+                        <div>
+                            <i class="fa-solid fa-dollar-sign" style="color: green;"></i>
+                        </div>
+                        <div>
+                            <p>&#8599 15.5% <span>+10k today</span></p>
+                        </div>
+                    </div>
+                        <h1>115,580</h1>
+                        <p>Total Expenses</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="customer-by-country-section">
+            <div class="customer-by-country-container">
+                <div class="map">
+                    <img src="./photos/Main-EU-suppliers-of-CRM.png" alt="">
+                </div>
+                <div class="statistics-chart-pie">
+                    <img src="./photos/pie-chart.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="statistics-section">
+            <div class="statistics-container">
+                <div class="statistics-graph">
+                    <img src="./photos/data-bar-graph.jpg" alt="">
+                </div>
+                <div class="calendar">
+                    <img src="./photos/july.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    <section class="form-section">
+        <div class="form-container">
+            <div class="form-inputs">
+                <form action="#" id="form">
+                    <h1>CRM</h1>
+                    <div class="input-control">
+                        <input type="text" name="id" id="id" placeholder="Enter your id" required>
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <input type="date" name="date" id="date" required>
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <button type="submit" id="btn" onclick="addData()">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+            <div class="form-image">
+                <img src="./photos/crm.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="customer-list-section">
+        <div class="customer-list-container">
+            <div class="title-filter">
+                <div>
+                    <h2>Manage Customers</h2>
+                </div>
+                <div class="add-button">
+                    <input type="text" id="search" placeholder="Search..." >
+                </div>
+            </div>
+            <div class="table" style="overflow-x: auto;">
+                <table id="tableOutput">
+                        <tr>
+                            <th>Customer ID</th>
+                            <th> Customer Name</th>
+                            <th>Customer Email</th>
+                            <th>Customer Phone</th>
+                            <th>Registration Date</th>
+                            <th colspan="2">Actions</th>
+                        </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+                <hgroup>
+                    <h1>CRM</h1>
+                <h4>CUSTOMER MANAGEMENT</h4>
+                </hgroup>
+            <div>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Analytics</a></li>
+                    <li><a href="#">Reports</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-clipboard-list"></i> Activities</a></li>
+                    <li><a href="#"><i class="fa-solid fa-cube"></i>  Products</a></li>
+                    <li><a href="#"><i class="fa-solid fa-user"></i> Customers</a></li>   
+                    <li><a href="#"><i class="fa-solid fa-clock"></i> Recent Project</a></li>
+                </ul>
+            </div>
+            <div class="smth">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-chart-simple"></i> Statistics</a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i> Chat</a></li>
+                    <li><a href="#"><i class="fa-solid fa-calendar-days"></i> To Do List</a></li>
+                    <li><a href="#"><i class="fa-solid fa-sack-dollar"></i> Finances</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-circle-info"></i> Help & Center</a></li>
+                    <li><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+                    <li><button class="sidebar-btn"> <i class="fa-solid fa-right-from-bracket" style="margin-right: 0.4rem;"> </i>LOGOUT</button></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyrights">
+        <p>&copy; All rights reserved. Crafted by Elsa Morina.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
